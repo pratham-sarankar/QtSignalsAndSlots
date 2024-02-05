@@ -14,6 +14,7 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 
 add_executable(QtSignalsAndSlots
   main.cpp
+  counter.h counter.cpp
 )
 target_link_libraries(QtSignalsAndSlots Qt${QT_VERSION_MAJOR}::Core)
 
